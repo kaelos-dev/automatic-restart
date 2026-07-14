@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 
+import net.minecraft.server.MinecraftServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,7 +17,6 @@ import net.kaelos.ar.command.ArCommands;
 import net.kaelos.ar.config.ConfigManager;
 import net.kaelos.ar.data.holder.RestartDataHolder;
 import net.kaelos.ar.init.SchedulerHandler;
-import net.minecraft.server.MinecraftServer;
 
 public class AutomaticRestart implements DedicatedServerModInitializer {
 
